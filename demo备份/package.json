@@ -1,0 +1,43 @@
+{
+  "name": "vue_chat_tool",
+  "version": "1.0.0",
+  "description": "wechat",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node ./tasks/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechat"
+  ],
+  "author": "Scott",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "pug": "^2.0.0-rc.4",
+    "ramda": "^0.24.1",
+    "regenerator-runtime": "^0.10.5",
+    "tween.js": "^16.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-latest": "^6.24.1",
+    "consolidate": "^0.14.5",
+    "copy-webpack-plugin": "^4.3.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "node-sass": "^4.7.2",
+    "postcss": "^6.0.2",
+    "postcss-loader": "^2.1.0",
+    "progress-bar-webpack-plugin": "^1.10.0",
+    "sass-loader": "^6.0.5",
+    "shelljs": "^0.7.8",
+    "style-loader": "^0.18.2",
+    "vue-template-compiler": "^2.3.4",
+    "webpack": "^3.10.0",
+    "wechat-mina-loader": "0.0.7"
+  }
+}

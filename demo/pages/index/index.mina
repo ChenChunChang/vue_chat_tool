@@ -1,0 +1,17 @@
+<template lang="pug">
+view.container
+  text 我哩个去
+</template>
+<script>
+const app = getApp()
+
+Page({
+  data: {
+
+  }
+})
+</script>
+<style lang="sass">
+.container
+  color: red
+</style>
